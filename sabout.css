@@ -1,0 +1,47 @@
+.bio{
+    font-size: large;
+    color: blue;
+}
+
+span{
+    background: #212121;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800
+    font: 1em sans-serif;
+    color: red;
+}
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 30%;
+}
+td, th {
+    border: 2px solid blue;
+    text-align: center;
+    padding: 7px;
+}
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+.back{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    transform: scale(300%);
+}
+
+.back a:hover{
+    color: aquamarine;
+}
